@@ -1,0 +1,41 @@
+
+ .encabezado{
+  width: 75px;
+  height: 68px;
+  
+}
+  .menu{
+    --background: linear-gradient(to top, rgb(132, 179, 255) 0%, #fff 100%);
+  }
+  
+  ion-item{
+    --background: transparentize($color: #000000, $amount: 0);
+  }
+
+  .formulario {
+    margin-top: 25px;
+  }
+
+.pie{
+    font-size: 10px;
+    color: black;
+}
+.piefondo{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+.Guardar {
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: #428cff;
+  padding: 10px 10px;
+  color: white; 
+  border-radius: 4px;
+
+}
+.Guardar:hover{
+  border: 1px solid #428cff;
+  background-color: white;
+  color: #428cff;
+}
